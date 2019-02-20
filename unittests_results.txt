@@ -1,0 +1,15 @@
+C:\Users\haowjern\haowjern\UCL\Masters\Modules\systems_infrastructure\compilers\JSONParser_complete>py -m unittest unittests.py
+WARNING: Token 'BACKSLASH' defined, but not used
+WARNING: There is 1 unused token
+Generating LALR tables
+WARNING: 26 shift/reduce conflicts
+WARNING: 1 reduce/reduce conflict
+WARNING: reduce/reduce conflict in state 13 resolved using rule (characters -> character)
+WARNING: rejected rule (empty -> <empty>) in state 13
+C:\Users\haowjern\haowjern\UCL\Masters\Modules\systems_infrastructure\compilers\JSONParser_complete\unittests.py:155: ResourceWarning: unclosed file <_io.TextIOWrapper name='unittest_long_json.json' mode='r' encoding='cp1252'>
+  file = open("unittest_long_json.json").read()
+...................................
+----------------------------------------------------------------------
+Ran 35 tests in 0.048s
+
+OK
